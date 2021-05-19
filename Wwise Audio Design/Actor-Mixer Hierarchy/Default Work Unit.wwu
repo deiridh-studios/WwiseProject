@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F1693F70-CA26-4D6E-B657-21FBA1A91834}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{F1693F70-CA26-4D6E-B657-21FBA1A91834}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F1693F70-CA26-4D6E-B657-21FBA1A91834}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Heartbeat_Dub" ID="{1F164A66-A9A6-45AA-81D3-90CA0230C141}" ShortID="224562954">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6B2B2A-FCC3-477A-B388-9B9A351B3290}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Heartbeat_Dub" ID="{50A17A54-8E24-4B21-B14E-A92B2D38D75B}">
+							<Language>SFX</Language>
+							<AudioFile>Heartbeat_Dub.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="304267095"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Heartbeat_Dub" ID="{50A17A54-8E24-4B21-B14E-A92B2D38D75B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Heartbeat_Dub2" ID="{11E0BD9E-0102-4A03-8B90-453A6648AC99}" ShortID="340290722">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6B2B2A-FCC3-477A-B388-9B9A351B3290}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Heartbeat_Dub2" ID="{2022402D-F7E7-48BE-BB2C-BC67A69A30DB}">
+							<Language>SFX</Language>
+							<AudioFile>Heartbeat_Dub2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="833775095"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Heartbeat_Dub2" ID="{2022402D-F7E7-48BE-BB2C-BC67A69A30DB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Heartbeat_Lub" ID="{AB98E9A9-BF46-4BD6-91D2-2936723B08D4}" ShortID="38864873">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6B2B2A-FCC3-477A-B388-9B9A351B3290}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Heartbeat_Lub" ID="{69ACD24D-707A-4833-B35E-794A5D0730AD}">
+							<Language>SFX</Language>
+							<AudioFile>Heartbeat_Lub.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="330119615"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Heartbeat_Lub" ID="{69ACD24D-707A-4833-B35E-794A5D0730AD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Heartbeat_Lub2" ID="{1BFB85E4-FBE3-4D05-AF45-406BDF3D63D4}" ShortID="614092970">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6B2B2A-FCC3-477A-B388-9B9A351B3290}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Heartbeat_Lub2" ID="{E9793760-AEA8-4571-B738-9012202408FA}">
+							<Language>SFX</Language>
+							<AudioFile>Heartbeat_Lub2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="439098931"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Heartbeat_Lub2" ID="{E9793760-AEA8-4571-B738-9012202408FA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
