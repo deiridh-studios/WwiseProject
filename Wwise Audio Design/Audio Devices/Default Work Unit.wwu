@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<AudioDevice Name="System" ID="{51BAB4DA-FED9-459E-AC8D-0DB5BF4A1B39}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
 				<AudioDevice Name="No_Output" ID="{5556FD46-0884-46E3-BC10-3154FD3CF931}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
+				<AudioDevice Name="Default_Motion_Device" ID="{7C31B23D-17B4-449C-88DA-D47FEC513409}" PluginName="Wwise Motion" CompanyID="0" PluginID="507" PluginType="7"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioDevices>
