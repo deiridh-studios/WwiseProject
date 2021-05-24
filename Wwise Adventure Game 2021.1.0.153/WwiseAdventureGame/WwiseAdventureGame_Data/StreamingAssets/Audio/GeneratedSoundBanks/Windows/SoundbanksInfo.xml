@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Documentos\GitHub\WwiseProject\Wwise Audio Design\</ProjectRoot>
+		<SourceFilesRoot>D:\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documentos\GitHub\WwiseProject\Wwise Adventure Game 2021.1.0.153\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documentos\GitHub\WwiseProject\Wwise Audio Design\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2841289356">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="3455378994">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Default Work Unit\Ambient_Region_Village">
+					<IncludedMemoryFiles>
+						<File Id="304267095" Language="SFX">
+							<ShortName>Heartbeat_Dub.wav</ShortName>
+							<Path>SFX\Heartbeat_Dub_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

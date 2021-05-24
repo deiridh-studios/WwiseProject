@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{BF0389AC-8B80-4D78-BBBD-0B9DC4254FB8}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Player_WeaponSwing" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}">
+				<Event Name="Ambient_Region_Village" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}">
 					<ChildrenList>
 						<Action Name="" ID="{0DD2696C-3064-4131-8E79-C203EA4E32D3}" ShortID="509224690">
 							<ReferenceList>

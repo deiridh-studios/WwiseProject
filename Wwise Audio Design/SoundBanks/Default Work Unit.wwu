@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{E13087E5-C8B6-4961-A684-BD4C4FA439FB}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Player_WeaponSwing" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}" WorkUnitID="{BF0389AC-8B80-4D78-BBBD-0B9DC4254FB8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Village" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}" WorkUnitID="{BF0389AC-8B80-4D78-BBBD-0B9DC4254FB8}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
