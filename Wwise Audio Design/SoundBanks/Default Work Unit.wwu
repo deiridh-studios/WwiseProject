@@ -3,16 +3,9 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{773825EA-A2C6-4BFC-A8FB-453E544950BE}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{E13087E5-C8B6-4961-A684-BD4C4FA439FB}">
+				<SoundBank Name="General" ID="{9844F2DB-9F11-48B0-A564-0D5C359DC5DE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Ambient_Region_Village" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}" WorkUnitID="{BF0389AC-8B80-4D78-BBBD-0B9DC4254FB8}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Village" ID="{DFF07A9D-EC23-4227-BCB6-3B33BBFB5531}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Ambient_Region_Village" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}" WorkUnitID="{BF0389AC-8B80-4D78-BBBD-0B9DC4254FB8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Health" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}" WorkUnitID="{BF0389AC-8B80-4D78-BBBD-0B9DC4254FB8}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -1,6 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3808743129	Player_WeaponSwing			\Default Work Unit\Player_WeaponSwing	
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	270885726	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat_Silence\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	304267095	Heartbeat_Dub	D:\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Heartbeat_Dub_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat_Dub		29544
+	304267095	Heartbeat_Dub	D:\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Heartbeat_Dub_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat_Dub\Heartbeat_Dub		29544
+	330119615	Heartbeat_Lub	D:\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Heartbeat_Lub_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat_Lub\Heartbeat_Lub		29544
+	439098931	Heartbeat_Lub2	D:\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Heartbeat_Lub2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat_Lub\Heartbeat_Lub2		29544
+	833775095	Heartbeat_Dub2	D:\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Heartbeat_Dub2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat_Dub\Heartbeat_Dub2		29544
 

@@ -11,22 +11,37 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="4156548377">
+		<SoundBank Id="133642231" Language="SFX" Hash="2124444023">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Default Work Unit\Player_WeaponSwing">
+				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Default Work Unit\Player_Health">
 					<IncludedMemoryFiles>
 						<File Id="304267095" Language="SFX">
 							<ShortName>Heartbeat_Dub.wav</ShortName>
 							<Path>SFX\Heartbeat_Dub_10C4C929.wem</Path>
 						</File>
+						<File Id="330119615" Language="SFX">
+							<ShortName>Heartbeat_Lub.wav</ShortName>
+							<Path>SFX\Heartbeat_Lub_10C4C929.wem</Path>
+						</File>
+						<File Id="439098931" Language="SFX">
+							<ShortName>Heartbeat_Lub2.wav</ShortName>
+							<Path>SFX\Heartbeat_Lub2_10C4C929.wem</Path>
+						</File>
+						<File Id="833775095" Language="SFX">
+							<ShortName>Heartbeat_Dub2.wav</ShortName>
+							<Path>SFX\Heartbeat_Dub2_10C4C929.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="215992295" Name="Player_Health" ObjectPath="\Game Parameters\Default Work Unit\Player_Health"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2841289356">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3725875560">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
