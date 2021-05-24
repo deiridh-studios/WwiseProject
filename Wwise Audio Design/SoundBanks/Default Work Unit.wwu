@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Village" ID="{DFF07A9D-EC23-4227-BCB6-3B33BBFB5531}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Village" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}" WorkUnitID="{BF0389AC-8B80-4D78-BBBD-0B9DC4254FB8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

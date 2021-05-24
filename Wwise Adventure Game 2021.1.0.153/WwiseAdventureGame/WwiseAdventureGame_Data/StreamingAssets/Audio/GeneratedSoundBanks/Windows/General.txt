@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2752753183	Ambient_Region_Village			\Default Work Unit\Ambient_Region_Village	
+	3808743129	Player_WeaponSwing			\Default Work Unit\Player_WeaponSwing	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	304267095	Heartbeat_Dub	D:\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Heartbeat_Dub_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat_Dub		29544
