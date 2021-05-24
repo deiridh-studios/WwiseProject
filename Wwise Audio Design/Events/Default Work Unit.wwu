@@ -14,6 +14,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_WeaponSwing" ID="{646D4B96-3B87-4AA4-AE12-F23598917D7B}">
+					<ChildrenList>
+						<Action Name="" ID="{DF4189FD-8F2A-4AB5-9D93-578936F695EA}" ShortID="1017723006">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Weapon_Swing" ID="{91BD4857-546C-477E-979F-88F9F4C9F6A2}" WorkUnitID="{F1693F70-CA26-4D6E-B657-21FBA1A91834}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{11430924-60DC-4E41-A807-BF7A3ED186A0}" ShortID="30246675">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Adventuress_Attack" ID="{F4FAD5EA-3DB7-40FE-BDCA-DC04DB4C5757}" WorkUnitID="{F1693F70-CA26-4D6E-B657-21FBA1A91834}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="2124444023">
+		<SoundBank Id="133642231" Language="SFX" Hash="3337550196">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -36,12 +36,158 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Default Work Unit\Player_WeaponSwing">
+					<IncludedMemoryFiles>
+						<File Id="55750318" Language="SFX">
+							<ShortName>Adventuress_Attack_Top (7).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_Top (7)_10C4C929.wem</Path>
+						</File>
+						<File Id="88173134" Language="SFX">
+							<ShortName>Adventuress_Attack_LeftRight (3).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_LeftRight (3)_10C4C929.wem</Path>
+						</File>
+						<File Id="166651481" Language="SFX">
+							<ShortName>Weapon_Swing_Sword.wav</ShortName>
+							<Path>SFX\Weapon_Swing_Sword_10C4C929.wem</Path>
+						</File>
+						<File Id="174636429" Language="SFX">
+							<ShortName>Adventuress_Attack_Top (3).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_Top (3)_10C4C929.wem</Path>
+						</File>
+						<File Id="176178492" Language="SFX">
+							<ShortName>Adventuress_Attack_LeftRight (5).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_LeftRight (5)_10C4C929.wem</Path>
+						</File>
+						<File Id="385406660" Language="SFX">
+							<ShortName>Adventuress_Attack_Top (5).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_Top (5)_10C4C929.wem</Path>
+						</File>
+						<File Id="393564048" Language="SFX">
+							<ShortName>Adventuress_Attack_Top (8).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_Top (8)_10C4C929.wem</Path>
+						</File>
+						<File Id="402352389" Language="SFX">
+							<ShortName>Weapon_Swing_Hammer.wav</ShortName>
+							<Path>SFX\Weapon_Swing_Hammer_10C4C929.wem</Path>
+						</File>
+						<File Id="404119806" Language="SFX">
+							<ShortName>Adventuress_Attack_LeftRight (4).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_LeftRight (4)_10C4C929.wem</Path>
+						</File>
+						<File Id="485069005" Language="SFX">
+							<ShortName>Weapon_Swing_Dagger.wav</ShortName>
+							<Path>SFX\Weapon_Swing_Dagger_10C4C929.wem</Path>
+						</File>
+						<File Id="507527763" Language="SFX">
+							<ShortName>Weapon_Swing_Axe.wav</ShortName>
+							<Path>SFX\Weapon_Swing_Axe_10C4C929.wem</Path>
+						</File>
+						<File Id="656774176" Language="SFX">
+							<ShortName>Adventuress_Attack_LeftRight (1).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_LeftRight (1)_10C4C929.wem</Path>
+						</File>
+						<File Id="663358695" Language="SFX">
+							<ShortName>Adventuress_Attack_Top (2).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_Top (2)_10C4C929.wem</Path>
+						</File>
+						<File Id="686336462" Language="SFX">
+							<ShortName>Adventuress_Attack_Top (4).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_Top (4)_10C4C929.wem</Path>
+						</File>
+						<File Id="831459084" Language="SFX">
+							<ShortName>Weapon_Swing_Pickaxe.wav</ShortName>
+							<Path>SFX\Weapon_Swing_Pickaxe_10C4C929.wem</Path>
+						</File>
+						<File Id="889736363" Language="SFX">
+							<ShortName>Adventuress_Attack_LeftRight (2).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_LeftRight (2)_10C4C929.wem</Path>
+						</File>
+						<File Id="934732613" Language="SFX">
+							<ShortName>Adventuress_Attack_Top (6).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_Top (6)_10C4C929.wem</Path>
+						</File>
+						<File Id="951136277" Language="SFX">
+							<ShortName>Adventuress_Attack_Top (1).wav</ShortName>
+							<Path>SFX\Adventuress_Attack_Top (1)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{D36E0962-A69A-4A8F-BE6A-5438AE2135AA}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{476D87DA-CC06-4696-90E6-86980FA5A38F}">
+							<Media>
+								<File Id="507527763"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{585AAF26-D179-40ED-87EF-3AFABD272C51}">
+							<Media>
+								<File Id="485069005"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5D202BED-D5F1-473E-9A54-76814CC1F259}">
+							<Media>
+								<File Id="402352389"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4A243762-5761-4ADB-8443-9A33D6430FBA}">
+							<Media>
+								<File Id="831459084"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A0175F57-1D56-4901-8230-68617D8B5D2B}">
+							<Media>
+								<File Id="166651481"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FFAEB22D-B802-4205-8F2E-DBB49BCADA22}">
+							<Media>
+								<File Id="88173134"/>
+								<File Id="176178492"/>
+								<File Id="404119806"/>
+								<File Id="656774176"/>
+								<File Id="889736363"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0CE57E40-9255-4632-9DBE-ED8ED356AE42}">
+							<Media>
+								<File Id="55750318"/>
+								<File Id="174636429"/>
+								<File Id="385406660"/>
+								<File Id="393564048"/>
+								<File Id="663358695"/>
+								<File Id="686336462"/>
+								<File Id="934732613"/>
+								<File Id="951136277"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="215992295" Name="Player_Health" ObjectPath="\Game Parameters\Default Work Unit\Player_Health"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2333396925" Name="Combo" ObjectPath="\States\Default Work Unit\Combo">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Combo\None"/>
+						<State Id="2398785008" Name="LeftSwing" ObjectPath="\States\Default Work Unit\Combo\LeftSwing"/>
+						<State Id="1736510753" Name="RightSwing" ObjectPath="\States\Default Work Unit\Combo\RightSwing"/>
+						<State Id="2416766296" Name="TopSwing" ObjectPath="\States\Default Work Unit\Combo\TopSwing"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="3251833556" Name="Player_Weapon_Type" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type">
+					<Switches>
+						<Switch Id="2454616260" Name="Sword" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type\Sword"/>
+						<Switch Id="3732162827" Name="Dagger" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type\Dagger"/>
+						<Switch Id="765201635" Name="Axe" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type\Axe"/>
+						<Switch Id="703486095" Name="Hammer" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type\Hammer"/>
+						<Switch Id="490825222" Name="PickAxe" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type\PickAxe"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3725875560">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2936995536">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

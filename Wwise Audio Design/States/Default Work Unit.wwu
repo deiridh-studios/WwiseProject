@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AB1600CA-121B-4BB8-A35A-C4AF60365C3E}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{AB1600CA-121B-4BB8-A35A-C4AF60365C3E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AB1600CA-121B-4BB8-A35A-C4AF60365C3E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Combo" ID="{50E39743-ED83-4682-84BB-F01F37AC6262}">
+					<ChildrenList>
+						<State Name="None" ID="{A94A5697-8AE6-4C0A-BF0B-1A8D88ABFAE7}"/>
+						<State Name="LeftSwing" ID="{D36E0962-A69A-4A8F-BE6A-5438AE2135AA}"/>
+						<State Name="RightSwing" ID="{FFAEB22D-B802-4205-8F2E-DBB49BCADA22}"/>
+						<State Name="TopSwing" ID="{0CE57E40-9255-4632-9DBE-ED8ED356AE42}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

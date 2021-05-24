@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2333396925	Combo			\Default Work Unit\Combo	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Combo			
+	1736510753	RightSwing	Combo			
+	2398785008	LeftSwing	Combo			
+	2416766296	TopSwing	Combo			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
