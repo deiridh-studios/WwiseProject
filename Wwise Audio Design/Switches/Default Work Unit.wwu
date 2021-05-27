@@ -12,6 +12,26 @@
 						<Switch Name="PickAxe" ID="{4A243762-5761-4ADB-8443-9A33D6430FBA}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Surface_Type" ID="{ADB796B7-7E08-4248-AB61-F5275683905C}">
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{32D9B174-B15D-4A0B-943B-74421148EAD2}"/>
+						<Switch Name="Agent" ID="{1514107D-F874-4E06-85E0-34CC5E21F345}"/>
+						<Switch Name="Barrel" ID="{2399DA29-493D-4FD6-BDEC-FB26752B6D14}"/>
+						<Switch Name="Crate" ID="{A32C65AD-B610-4653-9D23-0319B2E2ADC5}"/>
+						<Switch Name="Crystal" ID="{8B9221EB-BCEF-4F40-9B31-89E927E5F126}"/>
+						<Switch Name="Enemy_EvilCrawler" ID="{26C596B8-F9B9-4BFA-BE7E-52223CC7A154}"/>
+						<Switch Name="Enemy_EvilHead" ID="{628C2937-3A47-4678-88F5-6A3C989F5F57}"/>
+						<Switch Name="Enemy_EvilSpitPlant" ID="{DDB1F3D1-7E9B-49FA-97D3-AF5B0F826060}"/>
+						<Switch Name="Grass" ID="{6F0753C5-453F-42E4-8306-78687C1E38B0}"/>
+						<Switch Name="Leaves" ID="{1824703D-4ACA-4D98-B0D5-9E49D2DD5767}"/>
+						<Switch Name="Metal" ID="{6EE0F211-48EC-4A41-93C2-A9F53BF7C176}"/>
+						<Switch Name="Rubble" ID="{A07E033D-EB90-485A-AA5E-E02952E00910}"/>
+						<Switch Name="Sand" ID="{D08DD22D-AE6C-441B-A708-785DF2FE17E7}"/>
+						<Switch Name="Stone" ID="{67882EEF-26BE-4552-A31C-307F28C5B825}"/>
+						<Switch Name="Water" ID="{7CEED9DB-78B9-46C0-BFB0-19832485BCF3}"/>
+						<Switch Name="Wood" ID="{FCF4E74C-3DCA-453C-B8CB-2976E218EF8D}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
