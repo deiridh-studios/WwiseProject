@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Wwise Audio Design.wproj" DateLow="1621704974" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Wwise Audio Design.Josep.wsettings" DateLow="1622029403" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Wwise Audio Design.Josep.wsettings" DateLow="1622140933" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Virtual Acoustics\Default Work Unit.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Triggers\Default Work Unit.wwu" DateLow="1621704974" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Switches\Default Work Unit.wwu" DateLow="1621938802" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Switches\Default Work Unit.wwu" DateLow="1622137849" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\States\Default Work Unit.wwu" DateLow="1621938802" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\SoundBanks\Default Work Unit.wwu" DateLow="1621938802" DateHigh="0"/>
@@ -22,7 +22,7 @@
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Game Parameters\Factory Motion.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Game Parameters\Default Work Unit.wwu" DateLow="1621938802" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Events\Default Work Unit.wwu" DateLow="1621938802" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Events\Default Work Unit.wwu" DateLow="1622137849" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory Reflect.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory McDSP Effects.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory Mastering Suite.wwu" DateLow="1621704974" DateHigh="0"/>
@@ -32,7 +32,7 @@
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory iZotope Filters.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory iZotope Dynamics.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory iZotope Delay.wwu" DateLow="1621704974" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory iZotope Box Modeler.wwu" DateLow="1621938802" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory iZotope Box Modeler.wwu" DateLow="1622137849" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory Effects.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1621704974" DateHigh="0"/>
@@ -44,5 +44,5 @@
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Control Surface Sessions\Default Work Unit.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Audio Devices\Default Work Unit.wwu" DateLow="1621704974" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Attenuations\Default Work Unit.wwu" DateLow="1621704974" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1621938802" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\WwiseProject\Wwise Audio Design\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1622140661" DateHigh="0"/>
 </ValidationCache>
