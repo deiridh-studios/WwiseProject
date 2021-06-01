@@ -3,43 +3,13 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{BF0389AC-8B80-4D78-BBBD-0B9DC4254FB8}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Player_Health" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}">
+				<Event Name="Stop_All" ID="{9F8998DC-3E70-4812-A708-B508431E619F}">
 					<ChildrenList>
-						<Action Name="" ID="{0DD2696C-3064-4131-8E79-C203EA4E32D3}" ShortID="509224690">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Heartbeat" ID="{23B113EE-4952-4503-835B-DE358CEAF3A6}" WorkUnitID="{F1693F70-CA26-4D6E-B657-21FBA1A91834}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Player_WeaponSwing" ID="{646D4B96-3B87-4AA4-AE12-F23598917D7B}">
-					<ChildrenList>
-						<Action Name="" ID="{DF4189FD-8F2A-4AB5-9D93-578936F695EA}" ShortID="1017723006">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Weapon_Swing" ID="{91BD4857-546C-477E-979F-88F9F4C9F6A2}" WorkUnitID="{F1693F70-CA26-4D6E-B657-21FBA1A91834}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{11430924-60DC-4E41-A807-BF7A3ED186A0}" ShortID="30246675">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Adventuress_Attack" ID="{F4FAD5EA-3DB7-40FE-BDCA-DC04DB4C5757}" WorkUnitID="{F1693F70-CA26-4D6E-B657-21FBA1A91834}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Player_WeaponImpact" ID="{DBFAA43C-A990-48BE-A46A-420E685CB581}">
-					<ChildrenList>
-						<Action Name="" ID="{F556ADC1-87B8-4D7A-9438-40162CEFBDBF}" ShortID="445923498">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Weapon_Impact_Type" ID="{F4C80161-C8D0-4520-88DE-F0CC39D93532}" WorkUnitID="{F1693F70-CA26-4D6E-B657-21FBA1A91834}"/>
-								</Reference>
-							</ReferenceList>
+						<Action Name="" ID="{0AE7DAA0-21E7-45E0-B0AC-E501CFF9B342}" ShortID="371623358">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>

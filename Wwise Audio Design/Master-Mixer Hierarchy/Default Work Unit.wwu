@@ -9,6 +9,29 @@
 							<ObjectRef Name="System" ID="{51BAB4DA-FED9-459E-AC8D-0DB5BF4A1B39}" WorkUnitID="{6AC77857-8FC4-429D-B0E8-421343CB6C7E}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Non-World" ID="{9266972C-7EFC-45DF-890B-03AB1A140D4A}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="World" ID="{347693A5-6819-42A4-BECC-D6AA70353C79}">
+							<ChildrenList>
+								<Bus Name="Player" ID="{089EE97B-7C4E-43AE-8539-DAADAE5F9D63}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Ambient" ID="{4BB1EFD4-5736-4881-89CA-3FFD944896B9}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>

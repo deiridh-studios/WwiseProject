@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A9255A76-B9AA-47B5-9052-0229A47ECB03}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Ambient" ID="{A9255A76-B9AA-47B5-9052-0229A47ECB03}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

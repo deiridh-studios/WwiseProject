@@ -5,8 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="General" ID="{9844F2DB-9F11-48B0-A564-0D5C359DC5DE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Player_Health" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}" WorkUnitID="{BF0389AC-8B80-4D78-BBBD-0B9DC4254FB8}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Player_WeaponSwing" ID="{646D4B96-3B87-4AA4-AE12-F23598917D7B}" WorkUnitID="{BF0389AC-8B80-4D78-BBBD-0B9DC4254FB8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Health" ID="{6930D19D-D115-4578-8936-FFAD91C46A59}" WorkUnitID="{745E9280-1AC5-4F3D-860F-76DD9E5C5A26}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_WeaponSwing" ID="{646D4B96-3B87-4AA4-AE12-F23598917D7B}" WorkUnitID="{745E9280-1AC5-4F3D-860F-76DD9E5C5A26}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
