@@ -588,7 +588,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Music_Forest_Mix_120bpm4-4_L8M_P0" ID="{6ED91AFC-7B39-4695-90AD-5560DA246690}" ShortID="82576193">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="20000"/>
+										<Property Name="EndPosition" Type="Real64" Value="20500"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -912,7 +912,18 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
-					<ObjectLists/>
+					<ObjectLists>
+						<ObjectList Name="Stingers">
+							<Reference>
+								<Local>
+									<MusicStinger Name="" ID="{514DAB2B-69D5-4D7A-9688-8D0B53AEE695}">
+										<TriggerRef Name="Qucick_Stinger_Trigger" ID="{71657780-01D4-4850-937E-92177F24D3A4}" WorkUnitID="{011FA4A7-2FD9-49FE-8285-1943C18A8CEF}"/>
+										<SegmentRef Name="QucickStinger_GetItem_120bpm4-4_L2M_P0" ID="{8A418AC2-7494-4859-9871-23FEB195D8A9}" WorkUnitID="{098C18F9-0192-4FDF-9F09-61FE9A642703}"/>
+									</MusicStinger>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ArgumentList>
 						<ArgumentRef Name="Day_or_Night" ID="{25292875-E142-4A84-ABBA-F79FE704BADE}"/>
 					</ArgumentList>
@@ -935,6 +946,98 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
+				<Folder Name="Stinger" ID="{C1D4A0F2-76F0-48DB-9FE0-BC7472FF6F76}" ShortID="565975761">
+					<ChildrenList>
+						<MusicSegment Name="QucickStinger_GetItem_120bpm4-4_L2M_P0" ID="{8A418AC2-7494-4859-9871-23FEB195D8A9}" ShortID="792757897">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="11000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6B2B2A-FCC3-477A-B388-9B9A351B3290}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="QucickStinger_GetItem_120bpm4-4_L2M_P0" ID="{FFB53EB1-3C18-489E-9458-705624116338}" ShortID="480471294">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="QucickStinger_GetItem_120bpm4-4_L2M_P0" ID="{C211EB8E-D87F-46E5-A619-68EAF271B6A5}">
+											<Language>SFX</Language>
+											<AudioFile>QucickStinger_GetItem_120bpm4-4_L2M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="393912774"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E9828439-30FF-4E7A-A7E0-B1C72935775B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{06853E13-604E-4C1D-B4AE-E98E63DE33F0}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="QucickStinger_GetItem_120bpm4-4_L2M_P0" ID="{73094FB0-E77F-49F1-AAEE-7A690070FD06}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="10500"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="QucickStinger_GetItem_120bpm4-4_L2M_P0" ID="{C211EB8E-D87F-46E5-A619-68EAF271B6A5}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{BB746198-4CF0-4B23-BCFD-333C7C1D4A77}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="250"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{BB2EF98F-2372-4648-8931-17617D9B0B6D}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="10750"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

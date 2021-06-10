@@ -24,6 +24,18 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Music_Regions" ID="{E97FB6D8-E745-4FB9-A2B5-561122B0AE94}">
+					<ChildrenList>
+						<Action Name="" ID="{53F3F3C1-83B2-4196-9720-3C30D70A3F07}" ShortID="534755280">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Regions" ID="{C0CDABEC-51DC-4EFB-99EB-CD6D3ABFE3F7}" WorkUnitID="{098C18F9-0192-4FDF-9F09-61FE9A642703}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stinger_GetWeapon" ID="{F877BE81-D168-422E-B02B-69A3AE7851AD}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{011FA4A7-2FD9-49FE-8285-1943C18A8CEF}" SchemaVersion="103">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{011FA4A7-2FD9-49FE-8285-1943C18A8CEF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{011FA4A7-2FD9-49FE-8285-1943C18A8CEF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Qucick_Stinger_Trigger" ID="{71657780-01D4-4850-937E-92177F24D3A4}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

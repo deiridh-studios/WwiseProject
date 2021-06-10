@@ -4,6 +4,8 @@
 		<UserProjectSettings Name="" ID="{E2747AAF-0AF9-47EA-B167-34774E18F5E5}">
 			<PropertyList>
 				<Property Name="Event Action List\{039182F3-05A7-4418-835C-F757DD39A96E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E97FB6D8-E745-4FB9-A2B5-561122B0AE94}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F877BE81-D168-422E-B02B-69A3AE7851AD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -19,6 +21,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="2/JEmBGfsEilZA1cNZ3F3g=="/>
 				<Property Name="Interactive Music\x64_{66948E05-0ED5-4256-8A98-84F3447253B0} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzMzMzMzU0tAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{6ED91AFC-7B39-4695-90AD-5560DA246690} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzMzMzMzU0tAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{8A418AC2-7494-4859-9871-23FEB195D8A9} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP2IYhmEYBlpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{CB3DF925-517B-4922-B5EA-F3549E07EDEA} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAFHFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{F89C895A-EF67-4C34-83BB-6B3847ABA39D} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzMzMzMzU0tAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
