@@ -12,6 +12,7 @@
 				<GameParameter Name="Distance_to_the_closest_Evil_Crawler" ID="{55EE71BE-6E87-4D04-AF0F-180B2349C2FB}"/>
 				<GameParameter Name="Distance_to_the_closest_Evil_Head" ID="{5B4919D4-5288-4711-A5FA-936F3BEF1C25}"/>
 				<GameParameter Name="Distance_to_the_closest_Evil_Spit_Plant" ID="{2C57C559-BF6D-42A4-B656-E6FEDDF2231E}"/>
+				<GameParameter Name="Time_of_Day" ID="{6B21D47C-EA8A-41FE-8D80-0B6C212687CB}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{11BA5598-022B-4243-B7A2-7BFE0955B4AB}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="DayorNight" ID="{11BA5598-022B-4243-B7A2-7BFE0955B4AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="DayTime" ID="{F15EC650-79C1-4C65-8FD5-426290CD09F2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="24"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

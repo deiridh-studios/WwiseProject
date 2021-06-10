@@ -32,6 +32,45 @@
 						<Switch Name="Wood" ID="{FCF4E74C-3DCA-453C-B8CB-2976E218EF8D}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Day_or_Night" ID="{25292875-E142-4A84-ABBA-F79FE704BADE}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Woodlands_Day" ID="{6B1FC598-F609-44AA-B748-16506AF5B8FF}"/>
+						<Switch Name="Woodlands_Night" ID="{82E8ACAF-FB74-4472-8DEE-57856FB90F61}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="DayTime" ID="{F15EC650-79C1-4C65-8FD5-426290CD09F2}"/>
+						<Curve Name="" ID="{7C07912F-49B9-499D-A3EB-ECB21FFC9059}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>5.0289</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>19</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>24</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

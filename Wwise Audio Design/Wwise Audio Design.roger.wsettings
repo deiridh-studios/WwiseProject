@@ -17,14 +17,22 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="2/JEmBGfsEilZA1cNZ3F3g=="/>
+				<Property Name="Interactive Music\x64_{66948E05-0ED5-4256-8A98-84F3447253B0} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzMzMzMzU0tAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{6ED91AFC-7B39-4695-90AD-5560DA246690} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzMzMzMzU0tAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{CB3DF925-517B-4922-B5EA-F3549E07EDEA} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAFHFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{F89C895A-EF67-4C34-83BB-6B3847ABA39D} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzMzMzMzU0tAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{0CADFE6B-567D-4AF0-86B4-282530CC5FD5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{5C888D5D-F7B2-400F-950E-51435900878A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{5CE513AB-2BED-4938-A43A-74A2411E073C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{81CC4418-6495-49DB-9132-F4FF5ABAE22E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{850E054A-3F02-428B-8BD1-1BABF8C08B1E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{C0CDABEC-51DC-4EFB-99EB-CD6D3ABFE3F7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{DF065EA1-1271-4F37-AC4F-0409F5FB5B3E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{EE6CF70F-6584-43B2-8228-902A9D00685C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
