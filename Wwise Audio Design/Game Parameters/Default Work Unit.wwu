@@ -8,6 +8,10 @@
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Distance_to_closest_Evil_Crawler" ID="{52703818-1C1B-40D4-A87F-CD78950BF599}"/>
+				<GameParameter Name="Distance_to_the_closest_Evil_Crawler" ID="{55EE71BE-6E87-4D04-AF0F-180B2349C2FB}"/>
+				<GameParameter Name="Distance_to_the_closest_Evil_Head" ID="{5B4919D4-5288-4711-A5FA-936F3BEF1C25}"/>
+				<GameParameter Name="Distance_to_the_closest_Evil_Spit_Plant" ID="{2C57C559-BF6D-42A4-B656-E6FEDDF2231E}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

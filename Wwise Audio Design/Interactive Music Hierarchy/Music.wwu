@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{098C18F9-0192-4FDF-9F09-61FE9A642703}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{098C18F9-0192-4FDF-9F09-61FE9A642703}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Enemies" ID="{850E054A-3F02-428B-8BD1-1BABF8C08B1E}" ShortID="698618270">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6B2B2A-FCC3-477A-B388-9B9A351B3290}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Music Segment" ID="{CB3DF925-517B-4922-B5EA-F3549E07EDEA}" ShortID="628795307">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="22000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6B2B2A-FCC3-477A-B388-9B9A351B3290}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Cymbal_120bpm4-4_L8M_P2B" ID="{DF065EA1-1271-4F37-AC4F-0409F5FB5B3E}" ShortID="705500952">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cymbal_120bpm4-4_L8M_P2B" ID="{A269B4CB-CAD5-4774-97DF-6F0EB0D8B46A}">
+											<Language>SFX</Language>
+											<AudioFile>Cymbal_120bpm4-4_L8M_P2B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="10224570"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6C2724B5-8702-4364-A11F-D2788DB9F36A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{BE5E3539-E40D-4D9B-A241-4833B1C84F6E}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Cymbal_120bpm4-4_L8M_P2B" ID="{6C7E7131-D486-476E-AADB-BAADBAB95AB1}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="10000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Cymbal_120bpm4-4_L8M_P2B" ID="{A269B4CB-CAD5-4774-97DF-6F0EB0D8B46A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="EvilHead_Tamburine_120bpm4-4_L8M_P0" ID="{4FF6DA84-946D-4DDE-8930-C181DAC926F7}" ShortID="326687082">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilHead_Tamburine_120bpm4-4_L8M_P0" ID="{BC63FAE8-C496-4D66-A1D2-804C3507E7DC}">
+											<Language>SFX</Language>
+											<AudioFile>EvilHead_Tamburine_120bpm4-4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="890024985"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C0D9E2BB-8D93-47FD-918B-7652BF494C2F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{55A707E7-A05D-4ED1-A6AB-07033528F6E9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="EvilHead_Tamburine_120bpm4-4_L8M_P0" ID="{44A9BFF7-7D0A-44A5-8BFA-5AAB0A4D9410}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="17000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="EvilHead_Tamburine_120bpm4-4_L8M_P0" ID="{BC63FAE8-C496-4D66-A1D2-804C3507E7DC}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Music_Enemy_EvilCrawler_120bpm4-4_L8M_P3B" ID="{EE6CF70F-6584-43B2-8228-902A9D00685C}" ShortID="932143981">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{838B7924-69BE-4508-9971-59A2F88A9071}" ShortID="60184769">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_to_the_closest_Evil_Crawler" ID="{55EE71BE-6E87-4D04-AF0F-180B2349C2FB}" WorkUnitID="{0289FEF0-A540-4334-A990-CAA99BAECDE5}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{98BA101B-F042-42A3-ADE1-67843404BC1B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Enemy_EvilCrawler_120bpm4-4_L8M_P3B" ID="{308FFEAC-A687-48DC-87F3-40735FBE8D7F}">
+											<Language>SFX</Language>
+											<AudioFile>Music_Enemy_EvilCrawler_120bpm4-4_L8M_P3B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="971747907"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{703B0137-B476-4B10-B284-02A391BFFDE8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F1E2E8E3-91E8-4F78-8BBA-31890D2081B2}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Music_Enemy_EvilCrawler_120bpm4-4_L8M_P3B" ID="{601AF48D-2E8A-4644-ACBB-AF0740676CE4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="22000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Music_Enemy_EvilCrawler_120bpm4-4_L8M_P3B" ID="{308FFEAC-A687-48DC-87F3-40735FBE8D7F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Music_Enemy_EvilHead_120bpm4-4_L8M_P0" ID="{5C888D5D-F7B2-400F-950E-51435900878A}" ShortID="931703509">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{DBEC2C61-0FB2-4C51-A4AA-121BB574C0BE}" ShortID="583802264">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_to_the_closest_Evil_Head" ID="{5B4919D4-5288-4711-A5FA-936F3BEF1C25}" WorkUnitID="{0289FEF0-A540-4334-A990-CAA99BAECDE5}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{63B0FB93-1A0D-4F7D-A328-9E761257ADDE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Enemy_EvilHead_120bpm4-4_L8M_P0" ID="{8EAF4E5F-75FA-472A-B4F1-B3D429F32283}">
+											<Language>SFX</Language>
+											<AudioFile>Music_Enemy_EvilHead_120bpm4-4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="443382648"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FE0C7A47-2A71-4341-924E-880CF6001583}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9E497416-63E3-483A-86AA-954B3D0F0310}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Music_Enemy_EvilHead_120bpm4-4_L8M_P0" ID="{C0FCEB8F-70F1-4C30-8B74-137AE9575221}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="20000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Music_Enemy_EvilHead_120bpm4-4_L8M_P0" ID="{8EAF4E5F-75FA-472A-B4F1-B3D429F32283}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Music_Enemy_EvilSpitPlant_120bpm4-4_L8M_P0" ID="{81CC4418-6495-49DB-9132-F4FF5ABAE22E}" ShortID="564634318">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{5649063D-A8B4-4C28-B7D2-EEAB9998FB1E}" ShortID="115853238">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_to_the_closest_Evil_Spit_Plant" ID="{2C57C559-BF6D-42A4-B656-E6FEDDF2231E}" WorkUnitID="{0289FEF0-A540-4334-A990-CAA99BAECDE5}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{9BD0FD4A-DB1A-4218-A9CF-C1E45029CCBD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Enemy_EvilSpitPlant_120bpm4-4_L8M_P0" ID="{FE3BE161-CD29-4939-B359-E8D8C318277B}">
+											<Language>SFX</Language>
+											<AudioFile>Music_Enemy_EvilSpitPlant_120bpm4-4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="719481260"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2E51753F-5F00-4CB3-9016-552E72A7CA9D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0A75031D-0E1B-47A1-89C1-31A4DAE446B9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Music_Enemy_EvilSpitPlant_120bpm4-4_L8M_P0" ID="{0301CD76-7ADB-4CA8-BB6D-C3CEFCB2B6FF}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="20000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Music_Enemy_EvilSpitPlant_120bpm4-4_L8M_P0" ID="{FE3BE161-CD29-4939-B359-E8D8C318277B}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Tamburine_120bpm4-4_L8M_P0" ID="{DDB819CC-BD1D-47E2-B42D-E2E21BB79926}" ShortID="71392076">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Tamburine_120bpm4-4_L8M_P0" ID="{A9910844-37CE-4461-9126-AA4963691031}">
+											<Language>SFX</Language>
+											<AudioFile>Tamburine_120bpm4-4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="169963126"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A9A1CE6D-5D52-41EA-80D8-1F60498164B5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{48E32BE0-74A4-4128-AEE3-B24FE6AC22D5}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Tamburine_120bpm4-4_L8M_P0" ID="{C3194FF8-886E-43B7-9F3A-AB8418C885BE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="20000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Tamburine_120bpm4-4_L8M_P0" ID="{A9910844-37CE-4461-9126-AA4963691031}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Timpani_120bpm4-4_L8M_P2B" ID="{E4B3AD0E-E524-4382-B64D-81A3811EA0A3}" ShortID="911707406">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Timpani_120bpm4-4_L8M_P2B" ID="{4E4F9A84-2059-4664-8914-F73C3D63EA25}">
+											<Language>SFX</Language>
+											<AudioFile>Timpani_120bpm4-4_L8M_P2B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="431687259"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{64EE7C2C-B0F0-4F9D-BDA1-C2C2268637D1}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E6531D24-29C5-43CD-B178-D095F57A421F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Timpani_120bpm4-4_L8M_P2B" ID="{F99BC9FB-3570-4546-9BD2-634E45F23946}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="22000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Timpani_120bpm4-4_L8M_P2B" ID="{4E4F9A84-2059-4664-8914-F73C3D63EA25}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Trumpets_120bpm4-4_L8M_P0" ID="{A1A6DAF5-CFC7-43D0-8BB7-48B6B08ABAEC}" ShortID="957194758">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{36C851F4-055D-4C57-A936-5F63C23F1EAD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Trumpets_120bpm4-4_L8M_P0" ID="{839322D3-9DA1-483B-A574-FA54D7EDFE87}">
+											<Language>SFX</Language>
+											<AudioFile>Trumpets_120bpm4-4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267079707"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DE4289DC-A863-45DD-A7C3-D4DD00F0DFBB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{06F52C1D-BC8E-4DF6-8877-A64F85991A1F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Trumpets_120bpm4-4_L8M_P0" ID="{CC33F254-210D-4844-A73B-102F37854104}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="22000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Trumpets_120bpm4-4_L8M_P0" ID="{839322D3-9DA1-483B-A574-FA54D7EDFE87}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{FDFD50D4-DD48-46F8-AFEA-F92019A39F4F}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{1BC98FF8-307D-4FB0-9C9B-0582B451EB46}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{631F5C81-F66F-4675-8105-7F00988F0AF0}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{F06F8FC9-9840-46C6-894D-670F84FF2117}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{C6AB3B15-8D97-44A9-B6F1-BC914C2F124B}" ShortID="213085217"/>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

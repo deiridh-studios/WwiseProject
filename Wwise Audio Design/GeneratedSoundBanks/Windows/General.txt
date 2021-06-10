@@ -1,0 +1,53 @@
+Event	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Player\Player_Health	
+	3808743129	Player_WeaponSwing			\Player\Player_WeaponSwing	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3251833556	Player_Weapon_Type			\Default Work Unit\Player_Weapon_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	490825222	PickAxe	Player_Weapon_Type			
+	703486095	Hammer	Player_Weapon_Type			
+	765201635	Axe	Player_Weapon_Type			
+	2454616260	Sword	Player_Weapon_Type			
+	3732162827	Dagger	Player_Weapon_Type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2333396925	Combo			\Default Work Unit\Combo	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Combo			
+	1736510753	RightSwing	Combo			
+	2398785008	LeftSwing	Combo			
+	2416766296	TopSwing	Combo			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	270885726	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Health\Heartbeat\Heartbeat_Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	55750318	Adventuress_Attack_Top (7)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_Top (7)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_Top\Adventuress_Attack_Top (7)		168064
+	88173134	Adventuress_Attack_LeftRight (3)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_LeftRight (3)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_LeftRight\Adventuress_Attack_LeftRight (3)		132064
+	166651481	Weapon_Swing_Sword	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Weapon_Swing_Sword_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Weapon_Swing\Weapon_Swing_Sword		25816
+	174636429	Adventuress_Attack_Top (3)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_Top (3)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_Top\Adventuress_Attack_Top (3)		168064
+	176178492	Adventuress_Attack_LeftRight (5)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_LeftRight (5)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_LeftRight\Adventuress_Attack_LeftRight (5)		126064
+	304267095	Heartbeat_Dub	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Heartbeat_Dub_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Health\Heartbeat\Heartbeat_Dub\Heartbeat_Dub		29544
+	330119615	Heartbeat_Lub	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Heartbeat_Lub_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Health\Heartbeat\Heartbeat_Lub\Heartbeat_Lub		29544
+	385406660	Adventuress_Attack_Top (5)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_Top (5)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_Top\Adventuress_Attack_Top (5)		147064
+	393564048	Adventuress_Attack_Top (8)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_Top (8)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_Top\Adventuress_Attack_Top (8)		159064
+	402352389	Weapon_Swing_Hammer	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Weapon_Swing_Hammer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Weapon_Swing\Weapon_Swing_Hammer		168484
+	404119806	Adventuress_Attack_LeftRight (4)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_LeftRight (4)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_LeftRight\Adventuress_Attack_LeftRight (4)		132064
+	439098931	Heartbeat_Lub2	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Heartbeat_Lub2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Health\Heartbeat\Heartbeat_Lub\Heartbeat_Lub2		29544
+	485069005	Weapon_Swing_Dagger	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Weapon_Swing_Dagger_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Weapon_Swing\Weapon_Swing_Dagger		37808
+	507527763	Weapon_Swing_Axe	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Weapon_Swing_Axe_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Weapon_Swing\Weapon_Swing_Axe		27360
+	656774176	Adventuress_Attack_LeftRight (1)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_LeftRight (1)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_LeftRight\Adventuress_Attack_LeftRight (1)		127564
+	663358695	Adventuress_Attack_Top (2)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_Top (2)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_Top\Adventuress_Attack_Top (2)		162064
+	686336462	Adventuress_Attack_Top (4)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_Top (4)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_Top\Adventuress_Attack_Top (4)		159064
+	831459084	Weapon_Swing_Pickaxe	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Weapon_Swing_Pickaxe_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Weapon_Swing\Weapon_Swing_Pickaxe		107888
+	833775095	Heartbeat_Dub2	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Heartbeat_Dub2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Health\Heartbeat\Heartbeat_Dub\Heartbeat_Dub2		29544
+	889736363	Adventuress_Attack_LeftRight (2)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_LeftRight (2)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_LeftRight\Adventuress_Attack_LeftRight (2)		126064
+	934732613	Adventuress_Attack_Top (6)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_Top (6)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_Top\Adventuress_Attack_Top (6)		186064
+	951136277	Adventuress_Attack_Top (1)	C:\Users\roger\OneDrive\Documentos\GitHub\WwiseProject\Wwise Audio Design\.cache\Windows\SFX\Adventuress_Attack_Top (1)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diegetic Sounds\Player\Attack\Adventuress_Attack\Adventuress_Attack_Top\Adventuress_Attack_Top (1)		192064
+

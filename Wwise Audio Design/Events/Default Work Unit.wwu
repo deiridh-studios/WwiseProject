@@ -13,6 +13,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Music_Enemies" ID="{039182F3-05A7-4418-835C-F757DD39A96E}">
+					<ChildrenList>
+						<Action Name="" ID="{81DA5B67-F05C-4367-A2E9-1F5C13308CC8}" ShortID="203255403">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Segment" ID="{CB3DF925-517B-4922-B5EA-F3549E07EDEA}" WorkUnitID="{098C18F9-0192-4FDF-9F09-61FE9A642703}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
