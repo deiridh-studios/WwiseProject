@@ -35,7 +35,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stinger_GetWeapon" ID="{F877BE81-D168-422E-B02B-69A3AE7851AD}"/>
+				<Event Name="Stinger_GetWeapon" ID="{F877BE81-D168-422E-B02B-69A3AE7851AD}">
+					<ChildrenList>
+						<Action Name="" ID="{F967EC27-A72E-46A2-A476-A3A74145B1FC}" ShortID="268468079">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="QucickStinger_GetItem_120bpm4-4_L2M_P0" ID="{8A418AC2-7494-4859-9871-23FEB195D8A9}" WorkUnitID="{098C18F9-0192-4FDF-9F09-61FE9A642703}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -5879,6 +5879,7 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<WorkUnit Name="Ambient" ID="{3C18D72C-4750-4CFD-914E-D798F1C1D623}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
